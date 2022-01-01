@@ -17,4 +17,6 @@ I don't work on this project enough to retain my work from session to session, s
 
 On that topic of cognitive strugglesn my goal here is just an incredibly basic simulation, whatever is the bare essentials to demonstrate the concept.
 
+Another project idea I often combine with this one as the concept of there being arbitrary scales: that a player could shift larger or smaller to be a group or a member of that group, possibly without bound if conditions are right.  Simplified if all scales use the same mechanics.
+
 Part of the inspiration here may be based on experiences of people with dissociative amnesia, where experiences can shift as if there are separate realities one fits into when near.
