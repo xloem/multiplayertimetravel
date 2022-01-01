@@ -2,7 +2,7 @@
 
 I don't have the working- and short- term memory to finish this project, so please steal it and show it off to me..
 
-The idea is to impress players by making an interactive experience where they can individually time travel away from each other, and ideally interact with each other at disparate points in time.
+The idea is to impress players by making an interactive experience where they can individually time travel away from each other visually, and ideally interact with each other at disparate points in time.
 
 Basically the experience is a simulation that can predict its state at different points in time, based on known state at other points in time.
 
