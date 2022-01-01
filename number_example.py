@@ -17,4 +17,6 @@
 #         actions to one or spawn a new one.  be nice to have that be a float
 #         probability of binding.
 
+# note: user and sim could share the same interface for predicting state given environment and time
+
 class AdvancingNumberUniverse:
