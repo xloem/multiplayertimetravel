@@ -18,5 +18,7 @@
 #         probability of binding.
 
 # note: user and sim could share the same interface for predicting state given environment and time
+# note: user and number could both be equal peers
 
-class AdvancingNumberUniverse:
+# design choices/ideas:
+    # - update functions take new time, not time change.  expected to be more refactorable if need.
