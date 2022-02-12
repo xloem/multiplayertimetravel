@@ -22,3 +22,10 @@
 
 # design choices/ideas:
     # - update functions take new time, not time change.  expected to be more refactorable if need.
+
+    # - a simple uniform distribution class that can do a quick heuristic sample after its "+" operator could open avenues for demo material
+
+# look up / review?
+    # - brownian distribution
+    # - irwin hall distribution?
+    # - bernoulli distribution?
