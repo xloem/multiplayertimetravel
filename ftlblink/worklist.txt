@@ -1,0 +1,9 @@
+
+
+
+
+
+
+- sync with real clock time to not nick timeline flow if somebody launches sims out of sync
+- implement p-piles, code comment
+- add simulated copy of countersims into simulated worlds, to lay groundwork for agreement stabilization
