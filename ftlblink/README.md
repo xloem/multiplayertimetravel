@@ -4,4 +4,4 @@ FTL Blink
 
 FTL Blink is a simpler design than multiplayer time travel, focused on providing true instantaneous transport, and on a possible physical tech demo rather than a video game.
 
-It is, hence, much less wise, and seems much more supported! You could become an immortal trillionaire teleporting people around with prototypes right before their expected death in this world! But I thought we'd see if we could do it software-only and if that seems fun, make some ftlblink _robots_ to showcase FTL travel of physical objects.
+It is, hence, much less wise, and seems much more supported! You could become an immortal trillionaire teleporting people around with disgusting and gross prototypes, su=erpoeering medical research (and most others) like a rocket, right before their expected death in this world! But I thought we'd see if we could do it software-only and if that seems fun, make some ftlblink _robots_ to showcase FTL travel of physical objects.
