@@ -49,8 +49,7 @@ class FakeTimeline: # change to TeleportationNegotiation or such
     # def expand(self,
 
 # All probability content above. Have not turned
-# universe into tree of possibilities. Just emotionally
-# challenging.
+# universe into pile of possibilities. Slow :)
 
 class Region(BigThing):
     def __init__(self, universe, real=False, **attrs):
@@ -60,6 +59,7 @@ class Region(BigThing):
         self.real = real
         self.agents = set()
     def tick(self, time):
+        #return PConst(self.clone()) # oops i blipped out
         pass
     @property
     def other_regions(self):
@@ -75,7 +75,7 @@ class Miniverse:
             region.tick(self.time)
         # tick all agents after all regions for fair&acc order
         for agent in [agent
-                    for region in self.regions
+                      for region in self.regions
                       for agent in region.agents]:
             agent.tick(agent.region, self.time)
 
@@ -124,7 +124,7 @@ def create_model(idx, total):
 def main():
     worlds = [create_model(idx, 2) for idx in range(2)]
 
-    # needs uncertainty of data or tick, make trees
+    # needs uncertainty of data or tick, make piles
 
     while True:
         print('Time', worlds[0].universe.time)
