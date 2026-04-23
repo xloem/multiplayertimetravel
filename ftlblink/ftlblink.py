@@ -114,10 +114,10 @@ def create_model(idx, total):
         SimpleRegion(miniverse, seed=region_idx, real=idx==region_idx).idx = region_idx
 
     A = Agent(miniverse.regions[0], name='A')
-    A.tick = lambda region, time: A.teleport(region.other_regions[0]) if region.data % 4 == 2 else None
+    A.tick = lambda region, time: A.teleport(region.other_regions[0]) if region.data % 3 == 2 else None
 
     B = Agent(miniverse.regions[1], name='B')
-    B.tick = lambda region, time: B.teleport(region.other_regions[0]) if region.data % 8 == 4 else None
+    B.tick = lambda region, time: B.teleport(region.other_regions[0]) if region.data % 5 == 4 else None
 
     return miniverse.regions[idx]
 
